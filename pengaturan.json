@@ -1,0 +1,17 @@
+{
+    "namaBot":"Eula",
+    "trigger":".",
+    "owner":"AHANG",
+    "nomorOwner":"",
+    "nomorBot":"",
+    "callMsg":"Hey Jangan Nelpon BOT",
+    "callImg":"https://cdn.eula.my.id/eula-fuck.png",
+    "errorMsg":"Terjadi Kesalahan",
+    "salahFormat":"Mohon Maaf, Perintah yang anda masukkan salah!",
+    "notOwner":"Anda Bukan Owner!",
+    "notGroup":"Fitur ini hanya bisa digukanan dalam group",
+    "ownerCall":"ini owner saya",
+    "botCall":"ini saya",
+    "nsfwAllow":"true",
+    "kataKasarAllow":"true"
+}
