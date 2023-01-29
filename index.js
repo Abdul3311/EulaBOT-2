@@ -9,7 +9,7 @@ const registerSessionHandle = require("./user/register-session-handle.js");
 const menfessSessionHandle = require("./menfess/menfess-session-handle.js");
 const {menfessMessageHandle} = require("./menfess/menfess-message-handle");
 const {eula} = require('./eula');
-const {} = require('./ayaka')
+const {ayaka} = require('./ayaka')
 
 const client = new Client({
     puppeteer: {
@@ -73,7 +73,7 @@ client.on('message', async message => {
                     chat.sendMessage("*"+namaBot+"*\nMohon Maaf, Nomor anda telah di banned!\nHubungi Admin untuk Info lebih lanjut.");
                 }
             }else{
-
+                ayaka(client, message);
             }
         }
     }else{
@@ -94,7 +94,7 @@ client.on('message', async message => {
                if(cekSessionRegister != false){
                     kenalan(client, message);
                }else{
-
+                    ayaka(client, message);
                } 
             }
         }

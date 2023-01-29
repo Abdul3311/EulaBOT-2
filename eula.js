@@ -8,7 +8,7 @@ const akuari = require("./api/akuari");
 const anime = require("./api/anime");
 const copypaste = require("./lib/copypaste");
 const islam = require("./lib/islam");
-const { NONAME } = require("dns");
+const ytdl = require('ytdl-core');
 
 const eula = async(client,message) => {
     const {namaBot, trigger, nomorOwner, owner, allowNsfw} = require('./pengaturan.json');
@@ -742,6 +742,7 @@ const eula = async(client,message) => {
                     const pp = parseInt(eulawangi);
                     res = await islam.getDoa(pp);
                     if(res != false){
+                        await logfitur(nomor, namaPengirim, "Doa Harian", groupname, false);
                         chat.sendMessage("*"+namaBot+"*\n\n"+res);
                     }else{
                         message.reply("*"+namaBot+"*\n\nDoa Tidak Ditemukan");
@@ -755,11 +756,104 @@ const eula = async(client,message) => {
                 chat.sendMessage("Anda dapat merequest Doa dengan menambahkan angka berdasarkan urutan di atas, Contoh : "+trigger+"doaharian 3");
             }
         break;
+        //YTMP4
+        case trigger+"ytmp4":
+            if(ayakawangi != ""){
+                if(ayakawangi.includes("youtube") || ayakawangi.includes("youtu.be")){
+                    await logfitur(nomor, namaPengirim, "Youtube MP4", groupname, false);
+                    try {
+                        const videoUrl = ayakawangi;
+                        const ingfo = await ytdl.getInfo(videoUrl)
+                        const videoTitle = ingfo['player_response']['videoDetails']['title'];
+                        const videoChannel = ingfo['player_response']['videoDetails']['author']
+                        const vidInfo = "Judul : "+videoTitle+"\nChannel : "+videoChannel;
+                        const videoFilename = ("EulaBOT - "+ingfo['player_response']['videoDetails']['title']).replaceAll(/[^a-zA-Z ]/g, '_');
+                        fs.readdir("./temp", (err, files) => {
+                            if (err) {
+                            console.error(err);
+                            return;
+                            }
+                        
+                            for (const file of files) {
+                            fs.unlink(`./temp/${file}`, err => {
+                                if (err) {
+                                console.error(err);
+                                return;
+                                }
+                            });
+                            }
+                        });
+                        const stream = ytdl(videoUrl,{ quality: '18' });
+                        stream.pipe(fs.createWriteStream("./temp/"+videoFilename+".mp4"));
+                        stream.on('finish', () => {
+                          let media = MessageMedia.fromFilePath("./temp/"+videoFilename+".mp4");
+                          chat.sendMessage(media, {sendMediaAsDocument:true});
+                          chat.sendMessage("*"+namaBot+"*\n\nInformasi Video\n"+vidInfo+"\n\n*Pengiriman Video sedang diproses")
+                        });
+                      } catch (error) {
+                        message.reply("*"+namaBot+"*\n\nTerjadi Kesalahan, Video Mungkin Tidak Tersedia");
+                        console.log(error);
+                      }
+                }else{
+                    message.reply("*"+namaBot+"*\n\nKirim Link Youtube Woi")
+                }
+                
+            }else{
+                message.reply("*"+namaBot+"*\n\nMana Linknya Woi")
+            }
+        break;
+        //YTMP3
+        case trigger+"ytmp3":
+            if(ayakawangi != ""){
+                if(ayakawangi.includes("youtube") || ayakawangi.includes("youtu.be")){
+                    await logfitur(nomor, namaPengirim, "Youtube MP3", groupname, false);
+                    try {
+                        const videoUrl = ayakawangi;
+                        const ingfo = await ytdl.getInfo(videoUrl)
+                        const videoTitle = ingfo['player_response']['videoDetails']['title'];
+                        const videoChannel = ingfo['player_response']['videoDetails']['author']
+                        const vidInfo = "Judul : "+videoTitle+"\nChannel : "+videoChannel;
+                        const videoFilename = ("EulaBOT - "+ingfo['player_response']['videoDetails']['title']).replaceAll(/[^a-zA-Z ]/g, '_');
+                        fs.readdir("./temp", (err, files) => {
+                            if (err) {
+                            console.error(err);
+                            return;
+                            }
+                        
+                            for (const file of files) {
+                            fs.unlink(`./temp/${file}`, err => {
+                                if (err) {
+                                console.error(err);
+                                return;
+                                }
+                            });
+                            }
+                        });
+                        const stream = ytdl(videoUrl,{ filter: 'audioonly' });
+                        stream.pipe(fs.createWriteStream("./temp/"+videoFilename+".mp3"));
+                        stream.on('finish', () => {
+                          let media = MessageMedia.fromFilePath("./temp/"+videoFilename+".mp3");
+                          chat.sendMessage(media, {sendMediaAsDocument:true});
+                          chat.sendMessage("*"+namaBot+"*\n\nInformasi Audio\n"+vidInfo+"\n\n*Pengiriman Audio sedang diproses")
+                        });
+                      } catch (error) {
+                        message.reply("*"+namaBot+"*\n\nTerjadi Kesalahan, Video Mungkin Tidak Tersedia");
+                        console.log(error);
+                      }
+                }else{
+                    message.reply("*"+namaBot+"*\n\nKirim Link Youtube Woi")
+                }
+                
+            }else{
+                message.reply("*"+namaBot+"*\n\nMana Linknya Woi")
+            }
+        break;
         ///Admin Menu
         //Userlist
         case trigger+"userlist":
             if(isAdmin == true || isSuperAdmin == true){
                 res = await userHandle.userList();
+                await logfitur(nomor, namaPengirim, "User List", groupname, false);
                 chat.sendMessage("*"+namaBot+"*\n\n"+res);
             }else{
                 chat.sendMessage("*"+namaBot+"*\n\nHey anda bukan admin!");
@@ -785,6 +879,7 @@ const eula = async(client,message) => {
                     if(chat.owner === undefined){chatOwner = ""}else{chatOwner = chat.owner}
                     if(chat.description === undefined){chatDescription = ""}else{chatDescription = chat.description}
                     const msgin = "*->Informasi Grup<-*\nNama Grup : "+chat.name+"\nDeskripsi : "+chatDescription+"\nOwner : "+chatOwner+"\nAnggota Grup : \n\n"+listparty;
+                    await logfitur(nomor, namaPengirim, "Group Info", groupname, false);
                     chat.sendMessage("*"+namaBot+"*\n\n"+msgin);
                 }else{
                     chat.sendMessage("*"+namaBot+"*\n\nCommand Hanya Bisa digunakan oleh Admin Grup dan Admin BOT");
@@ -808,6 +903,7 @@ const eula = async(client,message) => {
                         if(res['banned'] == true){userStatus = "Banned"}else{userStatus = "Aktif"}
                         const datae = "*"+namaBot+"*\n\n*User Info* \nNomor : "+nom+"\nNama : "+res['nama']+"\nUmur : "+res["umur"]+"\nGender : "+res["gender"]+"\nHobi : "+res["hobi"]+"\nRole : "+botAdmin+"\nStatus : "+userStatus+"\nPoin : "+res['poin']+"\nHit : "+res['hit']+"\n\n*Gacha Info*\nPity : "+gachaData['pity']+"\nTotal : "+gachaData['total']+"\nWaifu Didapatkan : \n"+waifu;
                         chat.sendMessage(datae);
+                        await logfitur(nomor, namaPengirim, "Cek User", groupname, false);
                     }else{
                         chat.sendMessage("*"+namaBot+"*\n\nUser Tidak Terdaftar!")
                     }
