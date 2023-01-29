@@ -220,7 +220,6 @@ const animatedNsfwMenu = async()=>{
                 'Accept-Encoding': 'application/json',
             }
         });
-            console.log("ukuran : "+res.data.file_size+" ext : "+res.data.file_ext);
             if(res.status == 200 && res.data.rating == "e" && res.data.file_url && res.data.file_ext == "mp4" && res.data.file_size <= 15000000){
                 const dataBandar = {"link":res.data.file_url,"character":res.data.tag_string_character,"tags":res.data.tag_string,"copyright":res.data.tag_string_copyright,"rating":res.data.rating}
                 loop = false;

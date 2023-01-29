@@ -83,7 +83,7 @@ client.on('message', async message => {
             if(isGroup == false){menfessMessageHandle(client, message, "penerima");}
         }else{
             if(Array.from(isiPesan)[0] == trigger){
-                if(isiPesan == trigger+"register" || isiPesan == trigger+"kenalan"){
+                if(isiPesanLower == trigger+"register" || isiPesanLower == trigger+"kenalan"){
                     kenalan(client, message);
                 }else{
                     let button = new Buttons("Kamu belum melakukan registrasi nomor!",[{body:trigger+'register'}],namaBot,"Tekan "+trigger+"register untuk memulai registrasi");
