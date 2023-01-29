@@ -1,5 +1,6 @@
 const registerSessionHandle = require("./register-session-handle");
-const {tambahUser} = require('./user-handle.js')
+const {tambahUser} = require('./user-handle.js');
+const {Buttons} = require("whatsapp-web.js");
 const kenalan = async(client, message) =>{
     const {namaBot, owner, nomorOwner, trigger} = require("../pengaturan.json");
     const isiPesan = (message.body);
@@ -31,7 +32,7 @@ const kenalan = async(client, message) =>{
     if(statusNama == false){
         if(statusAmbilData == false){
             chat.sendMessage(dialog.tanyaNama1Msg1v1 + " "+namaBot+" "+dialog.tanyaNama1Msg1v2);
-            chat.sendMessage(dialog.tanyaNama1Msg2);
+            //chat.sendMessage(dialog.tanyaNama1Msg2);
             await registerSessionHandle.ambilDataTrue(nomor);
         }else{
             if(lowerIsiPesan == "nama" || lowerIsiPesan == "name" || lowerIsiPesan == "jeneng" || lowerIsiPesan == "manusia" || lowerIsiPesan.includes('wong') || lowerIsiPesan.includes("orang") || lowerIsiPesan.includes("kontol") || lowerIsiPesan.includes("memek") || lowerIsiPesan.includes("saya") || lowerIsiPesan.includes("namaku") || lowerIsiPesan.includes("makhluk") || lowerIsiPesan.includes("kenal") || lowerIsiPesan.includes("nama aku")){
@@ -147,7 +148,8 @@ const kenalan = async(client, message) =>{
                 if(MoveUserData != false){
                     const deleteTempData = await registerSessionHandle.deleteSessionRegister(nomor);
                     if(deleteTempData != false){
-                        chat.sendMessage(dialog.registrasiSelesai+" kamu bisa ketik "+trigger+"menu buat mulai");
+                        let button = new Buttons(dialog.registrasiSelesai,[{body:trigger+'menu'}],namaBot,"Tekan tombol dibawah atau ketik "+trigger+"menu untuk memulai menggunakan");
+                        chat.sendMessage(button);
                     }
                 }else{
 

@@ -1,6 +1,6 @@
 {
     "tanyaNama1Msg1v1":"Perkenalkan Saya",
-    "tanyaNama1Msg1v2":"saya adalah bot dan waifu ciptaan admin, nama kamu siapa? langsung tulis aja ya namanya",
+    "tanyaNama1Msg1v2":", nama kamu siapa? langsung tulis aja ya namanya",
     "tanyaNama1Msg2":"Bukannya aku apa apa ya tapi ini buat registrasi biar bisa pake botnya.",
     "jawabNamaSalah1Msg1":"iihh Kamu, isi yang bener dong",
     "jawabNamaSalah1Msg2":"kalo ngawur lagi aku pukul loh, namamu siapaaa?😠😠",
@@ -23,7 +23,7 @@
     "jawabUmurSalah3Msg1":"bodoh,nulis umur aja gak bisa",
     "jawabUmurSalah4Msg1":"kayaknya kamu harus ke tk lagi deh, disuruh nulis yang bener aja gabisa",
     "jawabUmurBenar1Msg1":"Ooooh ternyata umurmu masih",
-    "jawabUmurBenar2Msg1":"Ooooh ternyata umurmu masih(14 - 34) tahun",
+    "jawabUmurBenar2Msg1":"Ooooh ternyata umurmu masih",
     "jawabUmurBenar2Msg2":"Masih Muda Ternyata 😒",
     "jawabUmurBenar3Msg1":"Ooooh ternyata umurmu sudah",
     "tanyaHobi1Msg1":"hobimu apa yaa? langsung tulis aja ya!",

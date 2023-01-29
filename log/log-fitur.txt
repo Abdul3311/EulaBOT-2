@@ -1,0 +1,99 @@
+162317_26012023 -> 62895395391278 - ahang Request menu - Group false - false
+162332_26012023 -> 62895395391278 - ahang Request menu - Group false - false
+162548_26012023 -> 62895395391278 - ahang Request menu - Group false - false
+173450_26012023 -> 62895395391278 - ahang Request menu - Group false - false
+174918_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+175512_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+180206_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+180502_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+180530_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+180704_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+201741_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+205834_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+212959_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+213130_26012023 -> 62895395391278 - ahang Request menfess - Group false - false
+082515_28012023 -> 62895395391278 - ahang Request menu - Group false - false
+170644_28012023 -> 62895395391278 - ahang Request Sticker - Group false - false
+170919_28012023 -> 62895395391278 - ahang Request Sticker - Group false - false
+171005_28012023 -> 62895395391278 - ahang Request Sticker - Group false - false
+171026_28012023 -> 62895395391278 - ahang Request Sticker - Group false - false
+172122_28012023 -> 62895395391278 - ahang Request Rate : Keqing bau kucing : 55 - Group false - false
+172422_28012023 -> 62895395391278 - ahang Request Apakah : Keqing Bau Kucing : Pasti - Group false - false
+192157_28012023 -> 62895395391278 - ahang Request Kapan : p : Sebulan Lagi - Group false - false
+192217_28012023 -> 62895395391278 - ahang Request Apakah : keqing bau kucing : Tidak Mungkin - Group false - false
+194933_28012023 -> 62895395391278 - ahang Request Kata Bijak - Group false - false
+194943_28012023 -> 62895395391278 - ahang Request Kata Ilham - Group false - false
+194951_28012023 -> 62895395391278 - ahang Request Pantun Pak boy - Group false - false
+194958_28012023 -> 62895395391278 - ahang Request Sindiran - Group false - false
+195036_28012023 -> 62895395391278 - ahang Request Quotes Anime - Group false - false
+220107_28012023 -> 62895395391278 - ahang Request Anime Neko1 - Group false - https://nekos.best/api/v2/neko/0637.png
+220120_28012023 -> 62895395391278 - ahang Request Anime Neko KW - Group false - [object Object]
+220127_28012023 -> 62895395391278 - ahang Request Anime Neko2 - Group false - [object Object]
+220947_28012023 -> 62895395391278 - ahang Request Anime Neko2 - Group false - https://cdn.donmai.us/original/a3/f1/a3f167ed0cd0946fbfb8ae53c6f44258.jpg
+221003_28012023 -> 62895395391278 - ahang Request Anime Neko1 - Group false - https://nekos.best/api/v2/neko/0277.png
+221116_28012023 -> 62895395391278 - ahang Request Anime Neko2 - Group false - https://cdn.donmai.us/original/81/6e/816e6a0a3a0b74b7d73cdd7243a45be0.png
+221217_28012023 -> 62895395391278 - ahang Request Anime Neko2 - Group false - https://cdn.donmai.us/original/52/bb/52bba94e4cffa9ad77981f6c7ea3d614.jpg
+221516_28012023 -> 62895395391278 - ahang Request Anime Neko KW - Group false - https://cdn.donmai.us/original/5a/dc/5adc7f77dc7eacf32cce7ed35cfc3e29.png
+222558_28012023 -> 62895395391278 - ahang Request Anime Neko KW - Group false - https://cdn.donmai.us/original/d0/c3/d0c311ef881a9a7f00da4692a4b05fd2.jpg
+223234_28012023 -> 62895395391278 - ahang Request Anime Random2 - Group false - https://cdn.donmai.us/original/4a/22/4a2287c7d4758dbfe6b9e2ece1cdb9ad.jpg
+223256_28012023 -> 62895395391278 - ahang Request Anime Random1 - Group false - https://cdn.donmai.us/original/29/9a/299ab78547333420819108f8a6671baa.jpg
+223409_28012023 -> 62895395391278 - ahang Request Anime Neko2 - Group false - https://cdn.donmai.us/original/28/ee/28ee2a80fd53fc21bc47a3ae1f940925.jpg
+223632_28012023 -> 62895395391278 - ahang Request Anime Fox - Group false - https://cdn.donmai.us/original/c0/55/c0552fb41a843c9b70bce497c40dbff5.jpg
+223650_28012023 -> 62895395391278 - ahang Request Anime Fox - Group false - https://cdn.donmai.us/original/8c/41/8c413bfbf2ca0538366ef8c7d8d6deb3.jpg
+223905_28012023 -> 62895395391278 - ahang Request Anime Waifu 1 - Group false - https://cdn.waifu.im/1911.jpg
+231302_28012023 -> 62895395391278 - ahang Request Anime NSFW - Group false - https://cdn.donmai.us/original/da/42/da426752b82e5c45d88246befe63bb1f.mp4
+231521_28012023 -> 62895395391278 - ahang Request Anime NSFW - Group false - https://cdn.donmai.us/original/20/19/2019fab781e68c809d2cfd7c7edb7aac.jpg
+231543_28012023 -> 62895395391278 - ahang Request Anime NSFW - Group false - https://cdn.donmai.us/original/ee/f2/eef26ded8f6c1a945a7efc3453e591b8.jpg
+051612_29012023 -> 62895395391278 - ahang Request gesnhin 2 - Group Test bot - https://cdn.donmai.us/original/01/5b/015b905d5688f0f37330ad1d4dc75093.jpg
+051631_29012023 -> 62895395391278 - ahang Request gesnhin 2 - Group Test bot - https://cdn.donmai.us/original/d7/e6/d7e6ea58a2b3214e308fa94a3535890e.jpg
+051636_29012023 -> 62895395391278 - ahang Request genshin 1 - Group Test bot - https://cdn.donmai.us/original/2b/06/2b066267c2bc7f8e94ab884d57145372.jpg
+051742_29012023 -> 62895395391278 - ahang Request Anime Trap - Group false - https://cdn.donmai.us/original/43/08/4308c6ddfd71350fd947fa130974dd47.jpg
+051758_29012023 -> 62895395391278 - ahang Request Anime NSFW - Group false - https://cdn.donmai.us/original/8c/0a/8c0a68562a8ea30779171ed21dea829f.png
+051806_29012023 -> 62895395391278 - ahang Request Anime NSFW 2 - Group false - https://cdn.donmai.us/original/1e/fb/1efba0cec2cee4576653abdf4c6d1d0e.png
+052344_29012023 -> 62895395391278 - ahang Request Gacha - Group Test bot - false
+055941_29012023 -> 62895395391278 - ahang Request Wangi 1 waifunya : EULA - Group false - false
+055951_29012023 -> 62895395391278 - ahang Request Wangi 2 waifunya : EULA - Group false - false
+060001_29012023 -> 62895395391278 - ahang Request Wangi 4 waifunya : EULA - Group false - false
+060019_29012023 -> 62895395391278 - ahang Request Wangi 3 waifunya : EULA - Group false - false
+060038_29012023 -> 62895395391278 - ahang Request Wangi Furry waifunya : KAMBING - Group false - false
+060244_29012023 -> 62895395391278 - ahang Request Undangan waifunya : nahida - Group false - false
+061046_29012023 -> 62895395391278 - ahang Request Al Quran - Group false - false
+061144_29012023 -> 62895395391278 - ahang Request Al Quran - Group false - false
+061152_29012023 -> 62895395391278 - ahang Request Al Quran Surat : 29 ayat : 4 - Group false - false
+061423_29012023 -> 62895395391278 - ahang Request Al Quran MP3 Surat : 18 - Group false - false
+061618_29012023 -> 62895395391278 - ahang Request Jadwal Sholat Wilayah : lamonga - Group false - false
+103224_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+103234_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+104116_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+104123_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+104128_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+104133_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121649_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121707_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121836_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121910_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121916_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121922_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121947_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121949_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+121955_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+122000_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+123318_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+125008_29012023 -> 6285608689687 - ahang Request Menu - Group false - false
+125022_29012023 -> 6285608689687 - ahang Request Hidden Menu - Group false - false
+125430_29012023 -> 6285608689687 - ahang Request genshin nsfw - Group false - https://cdn.donmai.us/original/aa/d1/aad148e8de7b9b9139fffc9c50b6e880.jpg
+130508_29012023 -> 62895395391278 - ahang Request Admin Menu - Group false - false
+165845_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+165847_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+165850_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+165957_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170025_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170034_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170038_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170117_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170123_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170135_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170141_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+170151_29012023 -> 6285608689687 - ahang Request Gacha - Group false - false
+173402_29012023 -> 6285608689687 - ahang Request Menu - Group false - false
+185557_29012023 -> 6285608689687 - ahang Request Menu - Group false - false
