@@ -251,12 +251,12 @@ const cekBanned = async(nomor) => {
     return(false);
 }
 
-const userList = async(nomor) => {
+const userList = async() => {
     let json = await fs.readFileSync("./user/user-account.json","utf-8");
     let array = JSON.parse(json);
-    let listUser;
-    for(let a=0;a<array.length;a++){
-        listUser = listUser + (a+1) + ". " +array[a][0] + " - "+array[a][1]+"\n";
+    let listUser="",a;
+    for(a=0;a<array.length;a++){
+        listUser = listUser + (a+1) + ". " +array[a]['nomor'] + " - "+array[a]['nama']+"\n";
     }
     return(listUser);
 }
