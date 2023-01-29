@@ -14,7 +14,7 @@ const {ayaka} = require('./ayaka')
 const client = new Client({
     puppeteer: {
         executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe',
-        //headless:false
+        headless:false
         
     },
     authStrategy: new LocalAuth({ clientId: "EULAWANGI" }),
